@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h4 {
+    @apply text-lg font-bold;
+  }
+  input {
+    @apply border border-slate-300 block w-full p-2;
+  }
+  button {
+    @apply bg-indigo-500 text-white font-medium block w-full p-2;
+  }
+}
